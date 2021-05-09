@@ -28,6 +28,12 @@ If you´re new in Python, this repository is for you. Here finds:
 4. Dictionary like argument.
 5. Combination type like arguments for example (integer, tuple, dictionary).
 
+**Classes and Objects**
+
+1. New Classes and Methods in Classes
+2. Encapsulation: https://www.geeksforgeeks.org/encapsulation-in-python/
+3. Private methods
+
 **More, more and much more ...**
 
 ## To be continued!
