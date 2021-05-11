@@ -55,28 +55,27 @@ DIVISIBLE_BY_5 = 'DIVISIBLE_5_'
 for numberList in range(100):
 
     if numberList < 9:
-        newNumber = '00' + str(numberList+1)
+        newNumber = '00' + str(numberList + 1)
     else:
         if 9 <= numberList < 99:
-            newNumber = '0' + str(numberList+1)
+            newNumber = '0' + str(numberList + 1)
         else:
-            newNumber = str(numberList+1)
+            newNumber = str(numberList + 1)
 
     if numberList % 5 == 0:
         sampleTest[numberList] = sample + DIVISIBLE_BY_5 + newNumber
 
-
 print(f'New Sample Test {sampleTest}')
 
 print('************Exercise 4*********************')
-"""Initialize valuesDangerours database"""
-valuesDangerours = []
+"""Initialize valuesDangerous database"""
+valuesDangerous = []
 
-"""Process to fill 'valuesDangerours' database """
+"""Process to fill 'valuesDangerous' database """
 for numberList in range(100):
 
     """Create the random value"""
-    randomNumber = random.randint(20 , 100)
+    randomNumber = random.randint(20, 100)
 
     """Validate instructions"""
     if numberList < 25:
@@ -85,11 +84,7 @@ for numberList in range(100):
         valueTest = randomNumber
 
     """Add values to 'valuesBasic database'"""
-    valuesDangerours.append(valueTest)
+    valuesDangerous.append(valueTest)
 
     """Print data to user"""
-    print(f'{sampleTest[numberList]} : {valuesDangerours[numberList]}')
-
-
-
-
+    print(f'{sampleTest[numberList]} : {valuesDangerous[numberList]}')
