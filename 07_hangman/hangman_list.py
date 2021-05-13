@@ -1,0 +1,15 @@
+word_list = [
+    'data',
+    'science',
+    'machine',
+    'learning',
+    'touring',
+    'software',
+    'hardware',
+    'microchip',
+    'computer',
+    'phone',
+    'tesla',
+    'aerospace',
+    'satellite',
+]
